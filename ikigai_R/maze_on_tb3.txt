@@ -1,4 +1,6 @@
 
+Not sure about this : 
+
 To run on real robot:
 
 Terminal 1:
@@ -13,7 +15,7 @@ Terminal 3: (turn on laptop remote control node)
 $ roslaunch turtlebot3_bringup turtlebot3_remote.launch
 
 Terminal 4: (turn on maze explorer node)
-$ rosrun fira_maze maze_explorer.py
+$ rosrun ikigai_R maze_explorer.py
 
 --------------------------------------------------------
 
@@ -23,10 +25,15 @@ Terminal 1:
 $ roscore
 
 Terminal 2: (turn on Gazebo)
-$ roslaunch fira_maze maze_1_world.launch
+$ roslaunch ikigai_R maze_1_world.launch
 
-Terminal 3: (turn on maze explorer node)
-$ rosrun fira_maze maze_explorer.py
+Termianl 3: (turn on slam)
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+Terminal 4: (Run the code - test.py )
+$ rosrun ikigai_R test.py
+or 
+go to script and then do ./test.py
 
 --------------------------------------------------------
 
