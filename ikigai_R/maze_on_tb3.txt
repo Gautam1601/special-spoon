@@ -19,6 +19,8 @@ $ rosrun ikigai_R maze_explorer.py
 
 --------------------------------------------------------
 
+Have tested this already: 
+
 To run on simulation:
 
 Terminal 1:
